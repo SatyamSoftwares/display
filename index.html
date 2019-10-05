@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style type="text/css">
+    .container-fluid{
+      background-color: orange;
+      height: 50px;
+    }
+    .inner-container-fluid{
+      border: 3px solid black;
+      width: 100%;
+      height: 100px;
+      background-color: gray;
+    }
+    .container{
+      background-color: khaki;
+      height: 500px;
+    }
+    .inner-container{
+      border: 3px solid black;
+      width: 100%;
+      height: 100px;
+      background-color: pink;
+    }
+    @media screen and (max-width: 425px) {
+    .container-fluid{
+      position: absolute;
+      bottom: 0px;
+      width: 100%;
+    }
+    .in-com{
+      display: none;
+    }
+  }
+  @media screen and (min-width: 426px) {
+    .in-mob{
+      display: none;
+    }
+  }
+    /*.in-com{
+      float: left;
+    }
+    .in-mob{
+      float: left;
+    }*/
+ </style>
+</head>
+<body>
+  <div class="container-fluid">
+    <span class="col-xx-2 col-xs-2 col-sm-2 col-md-2 col-lg-2 in-com">Home</span><span class="col-xx-2 col-xs-2 col-sm-2 col-md-2 col-lg-2 in-mob">H</span>
+    <span class="col-xx-2 col-xs-2 col-sm-2 col-md-2 col-lg-2 in-com">Setting</span><span class="col-xx-2 col-xs-2 col-sm-2 col-md-2 col-lg-2 in-mob">S</span>
+    <span class="col-xx-2 col-xs-2 col-sm-2 col-md-2 col-lg-2 in-com">About</span><span class="col-xx-2 col-xs-2 col-sm-2 col-md-2 col-lg-2 in-mob">A</span>
+    <span class="col-xx-2 col-xs-2 col-sm-2 col-md-2 col-lg-2 in-com">Contact</span><span class="col-xx-2 col-xs-2 col-sm-2 col-md-2 col-lg-2 in-mob">C</span>
+    <span class="col-xx-2 col-xs-2 col-sm-2 col-md-2 col-lg-2 in-com">Login</span><span class="col-xx-2 col-xs-2 col-sm-2 col-md-2 col-lg-2 in-mob">L</span>
+  </div>
+  <div class="container">
+    <div class="inner-container">
+      
+    </div>  
+  </div>
+
+</body>
+</html>
